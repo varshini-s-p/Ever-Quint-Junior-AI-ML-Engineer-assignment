@@ -1,0 +1,18 @@
+Q: If a train leaves at 14:30 and arrives at 18:05, how long is the journey?
+Result: {'answer': '3 hours 35 minutes', 'status': 'success', 'reasoning_visible_to_user': 'Solved the problem step by step and verified correctness.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': True, 'details': 'Verified'}], 'retries': 0}}
+----------------------------------------
+Q: Alice has 3 red apples and twice as many green apples. How many apples total?
+Result: {'answer': '9 apples', 'status': 'success', 'reasoning_visible_to_user': 'Solved the problem step by step and verified correctness.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': True, 'details': 'Verified'}], 'retries': 0}}
+----------------------------------------
+Q: A meeting needs 60 minutes. Slots: 09:00–09:30, 09:45–10:30, 11:00–12:00.
+Result: {'answer': '09:45–10:30, 11:00–12:00', 'status': 'success', 'reasoning_visible_to_user': 'Solved the problem step by step and verified correctness.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': True, 'details': 'Verified'}], 'retries': 0}}
+----------------------------------------
+Q: If a train leaves at 23:50 and arrives at 01:20, how long is the journey?
+Result: {'answer': '1 hours 30 minutes', 'status': 'success', 'reasoning_visible_to_user': 'Solved the problem step by step and verified correctness.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': True, 'details': 'Verified'}], 'retries': 0}}
+----------------------------------------
+Q: A meeting needs 45 minutes. Slots: 09:00–09:45, 10:00–10:30, 11:00–11:45. Which slots can fit the meeting?
+Result: {'answer': '09:45–10:30, 11:00–12:00', 'status': 'success', 'reasoning_visible_to_user': 'Solved the problem step by step and verified correctness.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': True, 'details': 'Verified'}], 'retries': 0}}
+----------------------------------------
+Q: Bob has 5 blue balls. He has 3 more red balls than blue balls, and twice as many green balls as red balls. How many balls does he have in total?
+Result: {'answer': '', 'status': 'failed', 'reasoning_visible_to_user': 'Unable to verify a correct solution after multiple attempts.', 'metadata': {'plan': '1. Parse the problem statement\n2. Extract relevant quantities or constraints\n3. Perform necessary calculations\n4. Validate the result', 'checks': [{'check_name': 'verification', 'passed': False, 'details': 'Verification failed'}, {'check_name': 'verification', 'passed': False, 'details': 'Verification failed'}, {'check_name': 'verification', 'passed': False, 'details': 'Verification failed'}], 'retries': 3}}
+---------------------------------------- 

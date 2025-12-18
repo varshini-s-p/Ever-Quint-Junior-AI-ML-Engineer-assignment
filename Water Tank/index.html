@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Water Tank — EverQuint Assessment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Water Tank — Trapped Water Visualizer</h1>
+      <p class="subtitle">Enter block heights (comma-separated). The app computes total trapped water and draws an SVG visualization.</p>
+    </header>
+
+    <section class="controls">
+      <label for="heights">Block heights (comma or space separated)</label>
+      <input id="heights" placeholder="e.g. 3,0,2,0,4" />
+      <div class="buttons">
+        <button id="runBtn">Compute & Visualize</button>
+        <button id="sampleBtn">Use Sample</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div class="info-row">
+        <div class="info">Total Water: <span id="totalWater">0</span></div>
+        <div class="info">Blocks: <span id="blockCount">0</span></div>
+      </div>
+    </section>
+
+    <section class="visualization">
+      <div id="svgWrap" class="svg-wrap" aria-hidden="false"></div>
+      <div id="tableWrap" class="table-wrap"></div>
+    </section>
+
+    <section class="notes">
+      <h2>Notes</h2>
+      <ul>
+        <li>Visualization uses SVG: grey blocks and blue water layers.</li>
+        <li>Each unit of height is drawn as a uniform rectangle; scaling is automatic for wide inputs.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <small>Author: Varshini — Junior AI/ML Engineer candidate</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
